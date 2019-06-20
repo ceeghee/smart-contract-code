@@ -5,7 +5,7 @@
 ---
 
 ## Prerequisites
---
+---
 To use project you need:
 
 1. Ganache
