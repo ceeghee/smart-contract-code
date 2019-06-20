@@ -42,7 +42,7 @@ module.exports = {
 	rinkeby: {
 	  provider: () =>{
 	   var wallet =  new ArkaneProvider({
-			apiKey: 'WHIwTzcwNj5JV081bHU5NGIxI24hMHNOWFkvLzVBYyMkLDZwRlIhQ1AjWzM3KypOb2U=', 
+			apiKey: process.env.ARKANE_API_KEY, 
 			baseUrl: 'https://api.arkane.network',
 			providerUrl: 'https://kovan.rinkeby.io'
 		  })
